@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Mengharapkan/static/css/main.36033059.chunk.css",
+    "main.js": "/Mengharapkan/static/js/main.ea59d44f.chunk.js",
+    "main.js.map": "/Mengharapkan/static/js/main.ea59d44f.chunk.js.map",
+    "runtime-main.js": "/Mengharapkan/static/js/runtime-main.950d912f.js",
+    "runtime-main.js.map": "/Mengharapkan/static/js/runtime-main.950d912f.js.map",
+    "static/js/2.4ec2a7a5.chunk.js": "/Mengharapkan/static/js/2.4ec2a7a5.chunk.js",
+    "static/js/2.4ec2a7a5.chunk.js.map": "/Mengharapkan/static/js/2.4ec2a7a5.chunk.js.map",
+    "index.html": "/Mengharapkan/index.html",
+    "static/css/main.36033059.chunk.css.map": "/Mengharapkan/static/css/main.36033059.chunk.css.map",
+    "static/js/2.4ec2a7a5.chunk.js.LICENSE.txt": "/Mengharapkan/static/js/2.4ec2a7a5.chunk.js.LICENSE.txt",
+    "static/media/style.scss": "/Mengharapkan/static/media/yash-bindra-VQNnHIU_WVg-unsplash.7ba645ab.jpg",
+    "static/media/img_2.e6e87971.jpg": "/Mengharapkan/static/media/img_2.e6e87971.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.950d912f.js",
+    "static/js/2.4ec2a7a5.chunk.js",
+    "static/css/main.36033059.chunk.css",
+    "static/js/main.ea59d44f.chunk.js"
+  ]
+}
