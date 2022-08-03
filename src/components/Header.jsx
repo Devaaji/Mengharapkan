@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
-import {gsap} from 'gsap'
-import {ScrollTrigger} from 'gsap/ScrollTrigger'
+import { gsap } from 'gsap'
+import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import bgHeader from '../assets/bg-header.jpg'
 
 function Header() {
     gsap.registerPlugin(ScrollTrigger)
@@ -43,18 +44,17 @@ function Header() {
                 <div className="text-header">
                     <div className="text-title">
                         <div className="text-trans">
-                        MENGHARAPKAN SESUATU?
+                            MENGHARAPKAN SESUATU?
                         </div>
                     </div>
                     <div className="text-animated">
                         <div className="animated-trans">
-                        APA ITU. APA ITU. APA ITU. APA ITU. APA ITU. APA ITU. APA ITU. APA ITU. APA ITU. APA ITU. APA ITU. APA ITU
+                            APA ITU. APA ITU. APA ITU. APA ITU. APA ITU. APA ITU. APA ITU. APA ITU. APA ITU. APA ITU. APA ITU. APA ITU
                         </div>
                     </div>
                 </div>
                 <div className="bg-home">
-                    <div className="bg-title">
-                    </div>
+                    <img className='bg-title' src={bgHeader} alt="" />
                 </div>
             </div>
         </div>
