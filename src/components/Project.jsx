@@ -1,22 +1,23 @@
 import React, { useEffect } from 'react'
-import {gsap} from 'gsap'
-import { ScrollTrigger} from 'gsap/ScrollTrigger'
+import { gsap } from 'gsap'
+import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import Img2 from '../assets/img_2.jpg'
+import Img from '../assets/alec-douglas-iuC9fvq63J8-unsplash.jpg'
 
 function Project() {
     gsap.registerPlugin(ScrollTrigger)
 
-    useEffect(() =>{
+    useEffect(() => {
         gsap.to(".pContent", {
             yPercent: -20,
             ease: "none",
             scrollTrigger: {
-              trigger: ".pContent",
-              // start: "top bottom", // the default values
-              // end: "bottom top",
-              scrub: true
-            }, 
-          });
+                trigger: ".pContent",
+                // start: "top bottom", // the default values
+                // end: "bottom top",
+                scrub: true
+            },
+        });
 
         gsap.to(".img-project", {
             yPercent: 20,
@@ -36,7 +37,7 @@ function Project() {
         })
         gsap.to(".img-name-2", {
             duration: 10,
-            css:{
+            css: {
                 filter: "grayscale(1)",
             },
             scrollTrigger: {
@@ -54,7 +55,7 @@ function Project() {
         })
         gsap.to(".img-project", {
             duration: 10,
-            css:{
+            css: {
                 filter: "grayscale(1)",
             },
             scrollTrigger: {
@@ -64,7 +65,7 @@ function Project() {
         })
         gsap.to(".img-project-3", {
             duration: 10,
-            css:{
+            css: {
                 filter: "grayscale(1)",
             },
             scrollTrigger: {
@@ -115,56 +116,55 @@ function Project() {
     })
 
 
-    
+
     return (
         <>
-        <div className="project">
-            <div className="wrapper-project">
-                <div className="pContent">
-                    <p>Ketika mengharapkan sesuatu secara berlebihan,
-                        yang ada di dalam pikiranmu hanyalah
-                        sebuah keberhasilan.
-                        Padahal hidup itu
-                        tidak semudah apa yang kamu bayangkan.
-                        Saat harapan tersebut gagal tercapai,
-                        kamu pasti akan menderita kekecewaan
-                        yang cukup mendalam.</p>
-                </div>
-                <div className="img-project">
-                </div>
-            </div>
-        </div>
-        <div className="project">
-            <div className="wrapper-project">
-                <div className="pContent">
-                    <p>Terlalu Berharap Namun, Tak Pasti.</p>
-                </div>
-                <div className="img-project-2">
-                    <img className="img-name-2" src={Img2} alt="" />
-                </div>
-                <div className="img-project-3">
+            <div className="project">
+                <div className="wrapper-project">
+                    <div className="pContent">
+                        <p>Ketika mengharapkan sesuatu secara berlebihan,
+                            yang ada di dalam pikiranmu hanyalah
+                            sebuah keberhasilan.
+                            Padahal hidup itu
+                            tidak semudah apa yang kamu bayangkan.
+                            Saat harapan tersebut gagal tercapai,
+                            kamu pasti akan menderita kekecewaan
+                            yang cukup mendalam.</p>
+                    </div>
+                    <img className="img-project" src={Img} alt="" />
                 </div>
             </div>
-        </div>
-        <div className="project">
-            <div className="wrapper-project-2">
-                <div className="text-slide">
-                    <span>Berserderhanalah...</span>
-                </div>
-                <div className="img-slide"></div>
-                <div className="img-slide-2">
-                </div>
-            </div>
-        </div>
-        <div className="project">
-            <div className="wrapper-project-3">
-                <div className="img-slide-3">
-                </div>
-                <div className="text-slide-3">
-                    <p>dalam mengharap sesuatu yang tak pasti</p>
+            <div className="project">
+                <div className="wrapper-project">
+                    <div className="pContent">
+                        <p>Terlalu Berharap Namun, Tak Pasti.</p>
+                    </div>
+                    <div className="img-project-2">
+                        <img className="img-name-2" src={Img2} alt="" />
+                    </div>
+                    <div className="img-project-3">
+                    </div>
                 </div>
             </div>
-        </div>
+            <div className="project">
+                <div className="wrapper-project-2">
+                    <div className="text-slide">
+                        <span>Berserderhanalah...</span>
+                    </div>
+                    <div className="img-slide"></div>
+                    <div className="img-slide-2">
+                    </div>
+                </div>
+            </div>
+            <div className="project">
+                <div className="wrapper-project-3">
+                    <div className="img-slide-3">
+                    </div>
+                    <div className="text-slide-3">
+                        <p>dalam mengharap sesuatu yang tak pasti</p>
+                    </div>
+                </div>
+            </div>
         </>
     )
 }
