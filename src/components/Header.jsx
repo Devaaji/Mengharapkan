@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
-import bgHeader from '../assets/pexels-oleg-magni-1005644.jpg'
 
 function Header() {
     gsap.registerPlugin(ScrollTrigger)
@@ -54,7 +53,7 @@ function Header() {
                     </div>
                 </div>
                 <div className="bg-home">
-                    <img className='bg-title' src={bgHeader} alt="" />
+                    <img className='bg-title' src='https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1965&q=80' alt="" />
                 </div>
             </div>
         </div>
